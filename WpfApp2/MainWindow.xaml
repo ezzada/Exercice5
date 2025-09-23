@@ -6,7 +6,14 @@
         xmlns:local="clr-namespace:WpfApp2"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-
-    </Grid>
+    <StackPanel>
+        <TextBox Width="100px" HorizontalAlignment="Left" x:Name="txbID"></TextBox>
+        <Button Width="100px" HorizontalAlignment="Left" Click="Button_Click">chercher id</Button>
+        <Button Width="100px" HorizontalAlignment="Left" Click="Button_Click_1">Exercice 4</Button>
+        <Button Width="100px" HorizontalAlignment="Left" Click="Button_Click_2">Exercice 5</Button>
+        <Button Width="100px" HorizontalAlignment="Left" Click="Button_Click_3">Exercice 6</Button>
+        <Button Width="100px" HorizontalAlignment="Left" Click="Button_Click_4">Exercice 8</Button>
+        <Button Width="100px" HorizontalAlignment="Left" Click="Button_Click_5">Exercice 9</Button>
+        <Button Width="100px" HorizontalAlignment="Left" Click="Button_Click_6">Exercice 10</Button>
+    </StackPanel>
 </Window>
